@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.4s ease;;
+}
+
+
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
+  
+   .dark-mode {
+    background-color: black;
+    color: white;
+  }
+ /* faq section and bootstrap team specipic dark mode changing area------- */
+  .dark-mode .card{
+    background-color: #0b0b0b;
+    color: azure;
+  }
+
+  .dark-mode .accordion{
+    background-color: #0b0b0b;
+    color: white;
+  }
+
+
+ .darkmode .contact-box{
+    background-color: #0b0b0b;
+    color: white;
+
+ }
+
+  
+.dark-mode nav{
+    background-color: #0b0b0b;
+    color: white;
+
+}
+  
+
+  /* faq section and bootstrap team specipic dark mode changing area------- */
+
+body{
+    height: 100vh;
+    background-color: var(--body-color);
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background-color:white;
+    z-index: 100;
+}
+
+body.dark nav{
+    border: 1px solid #393838;
+
+}
+
+nav .nav-bar{
+    position: relative;
+    height: 100%;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size:larger ;
+
+}
+
+nav .nav-bar .sidebarOpen{
+    color: var(--text-color);
+    font-size: 25px;
+    padding: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+nav .nav-bar .logo a{
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.menu .logo-toggle{
+    display: none;
+}
+
+
+ .nav-bar .nav-links{
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+
+    
+} 
+
+
+
+.nav-bar .nav-links li{
+    margin: 0 10px;
+    list-style: none;
+}
+
+.nav-links li a{
+    position: relative;
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-links li a::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color:green;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.nav-links li:hover a::before{
+    opacity: 1;
+}
+
+/* @media (max-width: 790px) {
+    nav .nav-bar .sidebarOpen {
+        display: block;
+    }
+ 
+ 
+} */
+
+
+
+/* hero section start --------------------------------*/
+/* section2 */
+
+.button1{
+    background-color:#0f560d;
+    color:white ;
+   border-radius: 2px;
+   padding-left: 10px;
+   margin-top: 20px;
+   width:95px;
+   height: 30px;
+   }
+
+
+.h-img{ 
+    width:300px;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 250px;
+}
+
+.section2{
+   padding-left: 332px;
+   padding-top: 98px;
+   padding-bottom: 300px;
+   height: 450px;
+
+   }
+
+.homeimg{ 
+    margin-right:200px;
+    /* margin-bottom: 20px; */
+}
+.homepara{
+     padding-top:60px;
+     float: left;
+    }
+/* @media (max-width: 790px) {
+        .section2 .sidebarOpen {
+            display: block;
+        } wrong review this errror
+     
+     
+    } */
+
+/* section3--------------------------about */
+.section3{
+     height:550px ;
+    }
+
+.imagezoom{ 
+    width:450px;
+   height: 400px;
+   margin-top: 25px;
+   margin-left: 332px;
+
+}
+   .imagezoom:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+   }
+
+.aboutimg{  
+   float: left;
+   }
+
+.aboutpara{
+    float: right;
+    margin-top: 50px;
+    margin-right:400px;
+    text-align: justify;
+}
+/* .icon-color{
+    color: green;
+} */
+
+
+
+.button2{
+   color:#fdfffd ;
+   padding-left: 8px;
+   margin-top: 20px;
+   font-weight: bold;
+   text-align: center;
+   border: none;
+   background-color: #177d27;
+   border-radius: 4px;
+   height: 25px;
+   width: 120px;
+   
+   }
+
+
+   /* product image section--------------------------plants */
+   .ph2{
+    margin-left: 810px;
+    margin-bottom: 20px;
+} 
+.product-body{
+    justify-content: center;
+    margin-top: 30px;
+ }
+
+ .star{
+    color: yellow;
+ }
+
+/* FAQs section -------------------------------------------*/
+.accordion {
+    cursor: pointer;
+    padding:  28px;
+    width: 560px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    justify-content: center;
+    font-weight: bolder; 
+
+}
+
+.ques-section{
+    padding-left: 330px;
+}
+
+
+  
+  /* queationaries */
+   .active, .pannel:hover {
+    background-color: #96d185;
+  } 
+  
+  /* question section hiding part----------- */
+  .panel {
+    /* padding: 28px; */
+    width:560px ;
+    display: none;
+    overflow: hidden;
+  }
+
+
+
+
+.container{
+    width: 30%;
+    font-family: sans-serif;
+    
+}
+.faq-box{
+    display: flex;
+    padding-left: 85px;
+
+}
+.faq-box-right{
+  
+    /* background-color: rgb(243, 247, 244); */
+    width: 810px;
+    padding: 40px 10px;
+}
+.faq-box-left{
+    padding: 40px 15px;
+    /* background-color: rgb(184, 237, 176); */
+    width: 700px;
+    height: 500px;
+    
+}
+
+
+/* team section */
+.body{
+    text-align: center;
+
+}
+
+#team .container{
+    margin-top: 10px;
+ 
+}
+#container3{
+    margin-right: 120px;
+
+.avatar{
+    vertical-align: middle;
+    width: 240px;
+    height:240px;
+    border-radius: 50%;
+    padding: 50px;
+      
+}
+       
+    
+    
+}
+.heading4{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+ h3{
+    text-align:center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+
+
+
+/*  dot bullets change over page---------------------------- */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  margin-right: 20px;
+  margin-top: 30px;
+
+}
+
+.dot:hover {
+  background-color: #177d27;
+}
+
+/*team part end*/
+
+
+/* ---------contact part start -------------*/
+.textarea{
+    padding-left: 300px;
+}
+.container{
+    width: 70%;
+    font-family: sans-serif;
+    margin-top: 5%;
+    
+}
+.contact-box{
+    display: flex;
+    padding-left: 85px;
+
+}
+.contact-box-right{
+  
+    /* background-color: rgb(243, 247, 244); */
+    width: 810px;
+}
+.contact-box-left{
+    padding: 40px 60px;
+    /* background-color: rgb(184, 237, 176); */
+    width: 400px;
+    height: 500px;
+    
+}
+.details{
+    margin-top: 20px;
+}
+.details span i{
+    margin-right: 10px;
+}
+/* icon space align---------------------------------------------------------- */
+.form{
+    padding-left: 50px;
+    width: 100%;
+}
+
+.con-area{
+    /* margin-top: 40px; */
+    padding-left: 60px;
+}
+.content{
+    margin-top: 20px;
+    padding-left: 60px;
+}
+.buttonc{
+    /* margin-top:80px; */
+    background-color:#0f560d;
+    color:white ;
+    border-radius: 2px;
+    margin-top: 5px;
+    width:150px;
+    height: 30px;
+    margin-left: 60px;
+
+}
+
+
+.label{
+    padding-right: 400px;
+    margin-bottom: 20px;
+}
+
+
+ /* footer part---------------------------------------------- */
+ .footersec{   margin-left: 300px;
+    height: 255px;}
+                                
+    
+.footer-container3 {
+        display:inline-grid;
+        grid-template-columns: auto auto auto auto ;
+    }
+    
+.footer-item3{
+         padding: 100px;
+         text-align:justify;
+         padding-left: 10px;
+        }
+ #msg{
+    border: none;
+
+ }   
+
+ .footer-item4{
+    padding: 100px;
+    text-align:justify;
+    padding-left: 5px;
+   }
+    
+footer{ 
+    padding: 3px;
+    height: 50px;
+    }
+    
+.copyright>li{ 
+    display: inline;
+      
+    }
+    
+.copyright{ 
+    margin-top: 40px;
+    margin-left: 300px;
+    padding-left: 420px;
+}
+
+/* map api----------------- */
+#map{
+    height: 500px;
+     width: 65%; 
+    margin-top: 20px;
+    margin-left: 320px;
+}
