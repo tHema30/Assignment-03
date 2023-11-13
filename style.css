@@ -405,7 +405,7 @@ nav .nav-bar .logo a{
     width: 810px;
 }
 .contact-box-left{
-    padding: 40px 60px;
+    padding: 40px 40px;
     /* background-color: rgb(184, 237, 176); */
     width: 400px;
     height: 500px;
@@ -417,6 +417,8 @@ nav .nav-bar .logo a{
 .details span i{
     margin-right: 10px;
 }
+
+
 /* icon space align---------------------------------------------------------- */
 .form{
     padding-left: 50px;
@@ -428,7 +430,7 @@ nav .nav-bar .logo a{
     padding-left: 60px;
 }
 .content{
-    margin-top: 20px;
+    margin-top: 5px;
     padding-left: 60px;
 }
 .buttonc{
@@ -442,11 +444,16 @@ nav .nav-bar .logo a{
     margin-left: 60px;
 
 }
-
+.contact-box-left h2{
+    margin-bottom: 30px;
+}
 
 .label{
     padding-right: 400px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+}
+.c-inputs{
+    margin-top: 40px;
 }
 
 
